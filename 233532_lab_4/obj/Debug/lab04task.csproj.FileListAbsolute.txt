@@ -1,0 +1,8 @@
+D:\vplab2\lab04task\bin\Debug\lab04task.exe.config
+D:\vplab2\lab04task\bin\Debug\lab04task.exe
+D:\vplab2\lab04task\bin\Debug\lab04task.pdb
+D:\vplab2\lab04task\obj\Debug\lab04task.csproj.AssemblyReference.cache
+D:\vplab2\lab04task\obj\Debug\lab04task.csproj.SuggestedBindingRedirects.cache
+D:\vplab2\lab04task\obj\Debug\lab04task.csproj.CoreCompileInputs.cache
+D:\vplab2\lab04task\obj\Debug\lab04task.exe
+D:\vplab2\lab04task\obj\Debug\lab04task.pdb
