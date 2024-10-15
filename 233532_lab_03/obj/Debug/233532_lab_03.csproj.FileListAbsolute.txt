@@ -1,0 +1,8 @@
+D:\vplab2\233532_lab_03\bin\Debug\233532_lab_03.exe.config
+D:\vplab2\233532_lab_03\bin\Debug\233532_lab_03.exe
+D:\vplab2\233532_lab_03\bin\Debug\233532_lab_03.pdb
+D:\vplab2\233532_lab_03\obj\Debug\233532_lab_03.csproj.AssemblyReference.cache
+D:\vplab2\233532_lab_03\obj\Debug\233532_lab_03.csproj.SuggestedBindingRedirects.cache
+D:\vplab2\233532_lab_03\obj\Debug\233532_lab_03.csproj.CoreCompileInputs.cache
+D:\vplab2\233532_lab_03\obj\Debug\233532_lab_03.exe
+D:\vplab2\233532_lab_03\obj\Debug\233532_lab_03.pdb
