@@ -1,0 +1,8 @@
+D:\vplab2\Assignemt1\bin\Debug\Assignemt1.exe.config
+D:\vplab2\Assignemt1\bin\Debug\Assignemt1.exe
+D:\vplab2\Assignemt1\bin\Debug\Assignemt1.pdb
+D:\vplab2\Assignemt1\obj\Debug\Assignemt1.csproj.AssemblyReference.cache
+D:\vplab2\Assignemt1\obj\Debug\Assignemt1.csproj.SuggestedBindingRedirects.cache
+D:\vplab2\Assignemt1\obj\Debug\Assignemt1.csproj.CoreCompileInputs.cache
+D:\vplab2\Assignemt1\obj\Debug\Assignemt1.exe
+D:\vplab2\Assignemt1\obj\Debug\Assignemt1.pdb
