@@ -10,7 +10,7 @@ namespace Vp_programming_Lab_assignment
     {
         static void Main(string[] args)
         {
-            //Activity 1
+            //Activity 1 in main
             double a = 98, b = 0;
           double result = 0;
           try
@@ -25,11 +25,11 @@ namespace Vp_programming_Lab_assignment
               { Console.WriteLine("Attempted divide by zero."); }
             }
 
-            //Activity 2
+            //Activity 2 function call in main
             TestCatch2();
             Console.ReadLine();
         }
-        //Activity 1
+        //Activity 1 function
         static double SafeDivision(double x, double y)
         {
             if (y == 0)
@@ -37,7 +37,7 @@ namespace Vp_programming_Lab_assignment
             return x / y;
         }
 
-        //Activity 2
+        //Activity 2 function
         static void TestCatch2()
         {
             System.IO.StreamWriter sw = null;
