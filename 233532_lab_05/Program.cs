@@ -1,50 +1,114 @@
-using System;
+﻿using System;
+using System.Collections.Generic;
 
-public enum Department
+public class Customer
 {
-    ComputerScience,
-    ElectricalEngineering,
-    MechanicalEngineering,
-    CivilEngineering
+    // Properties of a general customer
+    public string CustomerId { get; set; }
+    public string LastName { get; set; }
+    public string FirstName { get; set; }
+    public string Street { get; set; }
+    public string City { get; set; }
+    public string State { get; set; }
+    public string ZipCode { get; set; }
+    public string Phone { get; set; }
+    public string Email { get; set; }
+    public string Password { get; set; }
+
+    // Default constructor
+    public Customer() { }
+
+    // Constructor that initializes a few properties
+    public Customer(string customerId, string lastName, string firstName)
+    {
+        CustomerId = customerId;
+        LastName = lastName;
+        FirstName = firstName;
+    }
+
+    // Method for making a reservation
+    public void MakeReservation(Reservation reservation)
+    {
+        Console.WriteLine($"Customer {FirstName} {LastName} made a reservation with ID {reservation.ReservationNo}.");
+    }
 }
 
-public class Person
+// Derived class for retail customers, with additional properties
+public class RetailCustomer : Customer
 {
-    public string Name { get; set; }
+    public string CreditCardType { get; set; } // Type of credit card (Visa, MasterCard, etc.)
+    public string CreditCardNo { get; set; }   // Credit card number
+}
 
-    // No-argument constructor
-    public Person()
+// Derived class for corporate customers, with additional properties
+public class CorporateCustomer : Customer
+{
+    public string CompanyName { get; set; }         // Company name for corporate customers
+    public int FrequentFlyerPts { get; set; }       // Frequent flyer points accumulated by the corporate customer
+    public string BillingAccountNo { get; set; }    // Billing account number
+}
+
+// Class representing a reservation made by a customer
+public class Reservation
+{
+    public string ReservationNo { get; set; }      // Unique reservation number
+    public DateTime Date { get; set; }             // Date of reservation
+    public List<Seat> ReservedSeats { get; set; }  // List of seats reserved in this reservation
+
+    // Constructor initializing the reservation number and setting the reservation date
+    public Reservation(string reservationNo)
     {
-        Name = null;
+        ReservationNo = reservationNo;
+        Date = DateTime.Now;  // Set the reservation date to current time
+        ReservedSeats = new List<Seat>();  // Initialize the list of reserved seats
     }
 
-    // Multi-argument constructor
-    public Person(string name)
+    // Method to reserve a seat
+    public void ReserveSeat(Seat seat)
     {
-        Name = name;
+        ReservedSeats.Add(seat);  // Add seat to the reservation
+        Console.WriteLine($"Seat {seat.SeatNo} reserved.");
     }
 }
 
-public class Student : Person
+// Class representing a seat on the flight
+public class Seat
 {
-    public string RegNo { get; set; }
-    public int Age { get; set; }
-    public Department Program { get; set; }
+    public int RowNo { get; set; }    // Row number of the seat
+    public int SeatNo { get; set; }   // Seat number
+    public decimal Price { get; set; } // Price of the seat
+    public string Status { get; set; } // Status (Reserved, Available, etc.)
+}
 
-    // No-argument constructor
-    public Student() : base() // Calls the base class constructor
+// Class representing a flight
+public class Flight
+{
+    public string FlightId { get; set; }  // Flight ID
+    public DateTime Date { get; set; }    // Date of the flight
+    public string Origin { get; set; }    // Origin of the flight
+    public string Destination { get; set; } // Destination of the flight
+    public DateTime DepartureTime { get; set; } // Flight departure time
+    public DateTime ArrivalTime { get; set; }   // Flight arrival time
+    public int SeatingCapacity { get; set; }    // Number of seats available on the flight
+    public List<Seat> Seats { get; set; }       // List of seats on the flight
+
+    // Constructor initializing flight ID and seating capacity, then calling seat initialization
+    public Flight(string flightId, int seatingCapacity)
     {
-        RegNo = null;
-        Age = 0;
-        Program = 0; // Default enum value
+        FlightId = flightId;
+        SeatingCapacity = seatingCapacity;
+        Seats = new List<Seat>();
+        InitializeSeats();  // Initialize the list of seats
     }
 
-    // Multi-argument constructor
-    public Student(string name, string regNo, int age, Department program) : base(name)
+    // Method to initialize the seats with default values
+    private void InitializeSeats()
     {
-        RegNo = regNo;
-        Age = age;
-        Program = program;
+        for (int i = 1; i <= SeatingCapacity; i++)
+        {
+            // Add seats with row, seat number, price, and status as available
+            Seats.Add(new Seat { RowNo = (i - 1) / 6 + 1, SeatNo = i, Price = 100 + i, Status = "Available" });
+        }
     }
 }
 
@@ -52,18 +116,30 @@ class Program
 {
     static void Main(string[] args)
     {
-        // Using no-argument constructor
-        Student student1 = new Student();
-        student1.Name = "John";
-        student1.RegNo = "CS101";
-        student1.Age = 20;
-        student1.Program = Department.ComputerScience;
+        // Create a flight object with a flight ID and seating capacity of 12
+        Flight flight = new Flight("FL123", 12);
 
-        // Using multi-argument constructor
-        Student student2 = new Student("Alice", "EE102", 22, Department.ElectricalEngineering);
+        // Create a reservation object with a reservation number
+        Reservation reservation = new Reservation("RS456");
 
-        // Output the details
-        Console.WriteLine($"Student 1: {student1.Name}, {student1.RegNo}, {student1.Age}, {student1.Program}");
-        Console.WriteLine($"Student 2: {student2.Name}, {student2.RegNo}, {student2.Age}, {student2.Program}");
+        // Create a retail customer object and set its details
+        RetailCustomer customer = new RetailCustomer
+        {
+            CustomerId = "C001",
+            FirstName = "John",
+            LastName = "Doe",
+            CreditCardType = "Visa",
+            CreditCardNo = "1234-5678-9012"
+        };
+
+        // Customer makes a reservation
+        customer.MakeReservation(reservation);
+
+        // Reserve the first seat from the flight
+        Seat seat = flight.Seats[0];  // Retrieve the first seat in the flight's seat list
+        reservation.ReserveSeat(seat); // Reserve this seat in the reservation
+
+        // Output the reserved seat details
+        Console.WriteLine($"Seat {seat.SeatNo} (Row {seat.RowNo}) reserved at price {seat.Price:C}.");
     }
 }
