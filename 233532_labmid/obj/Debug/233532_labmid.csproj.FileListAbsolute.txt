@@ -1,0 +1,8 @@
+D:\vplab2\233532_labmid\obj\Debug\233532_labmid.csproj.AssemblyReference.cache
+D:\vplab2\233532_labmid\obj\Debug\233532_labmid.csproj.SuggestedBindingRedirects.cache
+D:\vplab2\233532_labmid\obj\Debug\233532_labmid.csproj.CoreCompileInputs.cache
+D:\vplab2\233532_labmid\bin\Debug\233532_labmid.exe.config
+D:\vplab2\233532_labmid\bin\Debug\233532_labmid.exe
+D:\vplab2\233532_labmid\bin\Debug\233532_labmid.pdb
+D:\vplab2\233532_labmid\obj\Debug\233532_labmid.exe
+D:\vplab2\233532_labmid\obj\Debug\233532_labmid.pdb
