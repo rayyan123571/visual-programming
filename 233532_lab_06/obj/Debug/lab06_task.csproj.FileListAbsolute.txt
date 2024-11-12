@@ -1,6 +1,0 @@
-D:\vplab2\lab06_task\obj\Debug\lab06_task.csproj.AssemblyReference.cache
-D:\vplab2\lab06_task\obj\Debug\lab06_task.csproj.SuggestedBindingRedirects.cache
-D:\vplab2\lab06_task\obj\Debug\lab06_task.Form1.resources
-D:\vplab2\lab06_task\obj\Debug\lab06_task.Properties.Resources.resources
-D:\vplab2\lab06_task\obj\Debug\lab06_task.csproj.GenerateResource.cache
-D:\vplab2\lab06_task\obj\Debug\lab06_task.csproj.CoreCompileInputs.cache
