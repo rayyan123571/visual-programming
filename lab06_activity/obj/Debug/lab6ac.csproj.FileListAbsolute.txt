@@ -1,0 +1,8 @@
+D:\vplab2\lab6ac\bin\Debug\lab6ac.exe.config
+D:\vplab2\lab6ac\bin\Debug\lab6ac.exe
+D:\vplab2\lab6ac\bin\Debug\lab6ac.pdb
+D:\vplab2\lab6ac\obj\Debug\lab6ac.csproj.AssemblyReference.cache
+D:\vplab2\lab6ac\obj\Debug\lab6ac.csproj.SuggestedBindingRedirects.cache
+D:\vplab2\lab6ac\obj\Debug\lab6ac.csproj.CoreCompileInputs.cache
+D:\vplab2\lab6ac\obj\Debug\lab6ac.exe
+D:\vplab2\lab6ac\obj\Debug\lab6ac.pdb
