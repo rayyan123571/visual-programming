@@ -1,0 +1,11 @@
+D:\vplab2\labAcccc\obj\Debug\labAcccc.csproj.AssemblyReference.cache
+D:\vplab2\labAcccc\obj\Debug\labAcccc.csproj.SuggestedBindingRedirects.cache
+D:\vplab2\labAcccc\obj\Debug\labAcccc.Form1.resources
+D:\vplab2\labAcccc\obj\Debug\labAcccc.Properties.Resources.resources
+D:\vplab2\labAcccc\obj\Debug\labAcccc.csproj.GenerateResource.cache
+D:\vplab2\labAcccc\obj\Debug\labAcccc.csproj.CoreCompileInputs.cache
+D:\vplab2\labAcccc\bin\Debug\labAcccc.exe.config
+D:\vplab2\labAcccc\bin\Debug\labAcccc.exe
+D:\vplab2\labAcccc\bin\Debug\labAcccc.pdb
+D:\vplab2\labAcccc\obj\Debug\labAcccc.exe
+D:\vplab2\labAcccc\obj\Debug\labAcccc.pdb
