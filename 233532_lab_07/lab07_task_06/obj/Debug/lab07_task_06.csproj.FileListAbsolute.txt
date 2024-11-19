@@ -1,0 +1,11 @@
+D:\vplab2\lab07_task_06\obj\Debug\lab07_task_06.csproj.AssemblyReference.cache
+D:\vplab2\lab07_task_06\obj\Debug\lab07_task_06.csproj.SuggestedBindingRedirects.cache
+D:\vplab2\lab07_task_06\obj\Debug\lab07_task_06.Form1.resources
+D:\vplab2\lab07_task_06\obj\Debug\lab07_task_06.Properties.Resources.resources
+D:\vplab2\lab07_task_06\obj\Debug\lab07_task_06.csproj.GenerateResource.cache
+D:\vplab2\lab07_task_06\obj\Debug\lab07_task_06.csproj.CoreCompileInputs.cache
+D:\vplab2\lab07_task_06\bin\Debug\lab07_task_06.exe.config
+D:\vplab2\lab07_task_06\bin\Debug\lab07_task_06.exe
+D:\vplab2\lab07_task_06\bin\Debug\lab07_task_06.pdb
+D:\vplab2\lab07_task_06\obj\Debug\lab07_task_06.exe
+D:\vplab2\lab07_task_06\obj\Debug\lab07_task_06.pdb
