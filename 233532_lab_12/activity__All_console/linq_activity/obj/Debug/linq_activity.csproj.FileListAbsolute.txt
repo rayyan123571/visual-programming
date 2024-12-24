@@ -1,0 +1,8 @@
+D:\vplab2\linq_activity\bin\Debug\linq_activity.exe.config
+D:\vplab2\linq_activity\bin\Debug\linq_activity.exe
+D:\vplab2\linq_activity\bin\Debug\linq_activity.pdb
+D:\vplab2\linq_activity\obj\Debug\linq_activity.csproj.AssemblyReference.cache
+D:\vplab2\linq_activity\obj\Debug\linq_activity.csproj.SuggestedBindingRedirects.cache
+D:\vplab2\linq_activity\obj\Debug\linq_activity.csproj.CoreCompileInputs.cache
+D:\vplab2\linq_activity\obj\Debug\linq_activity.exe
+D:\vplab2\linq_activity\obj\Debug\linq_activity.pdb
