@@ -1,0 +1,15 @@
+D:\vplab2\AppointmentApp\bin\Debug\AppointmentApp.exe.config
+D:\vplab2\AppointmentApp\bin\Debug\AppointmentApp.exe
+D:\vplab2\AppointmentApp\bin\Debug\AppointmentApp.pdb
+D:\vplab2\AppointmentApp\obj\Debug\AppointmentApp.csproj.AssemblyReference.cache
+D:\vplab2\AppointmentApp\obj\Debug\AppointmentApp.csproj.SuggestedBindingRedirects.cache
+D:\vplab2\AppointmentApp\obj\Debug\MainWindow.baml
+D:\vplab2\AppointmentApp\obj\Debug\MainWindow.g.cs
+D:\vplab2\AppointmentApp\obj\Debug\App.g.cs
+D:\vplab2\AppointmentApp\obj\Debug\AppointmentApp_MarkupCompile.cache
+D:\vplab2\AppointmentApp\obj\Debug\AppointmentApp.g.resources
+D:\vplab2\AppointmentApp\obj\Debug\AppointmentApp.Properties.Resources.resources
+D:\vplab2\AppointmentApp\obj\Debug\AppointmentApp.csproj.GenerateResource.cache
+D:\vplab2\AppointmentApp\obj\Debug\AppointmentApp.csproj.CoreCompileInputs.cache
+D:\vplab2\AppointmentApp\obj\Debug\AppointmentApp.exe
+D:\vplab2\AppointmentApp\obj\Debug\AppointmentApp.pdb
